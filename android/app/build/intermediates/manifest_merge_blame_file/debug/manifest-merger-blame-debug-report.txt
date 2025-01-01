@@ -1,0 +1,236 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rncarplayscene"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:5:3-77
+12-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:5:20-74
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:6:3-79
+13-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:6:20-76
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:7:3-79
+14-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:7:20-76
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:8:3-77
+15-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:8:20-74
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:9:3-65
+16-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:9:20-62
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:10:3-74
+17-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:10:20-71
+18    <uses-permission android:name="androidx.car.app.NAVIGATION_TEMPLATES" />
+18-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-77
+18-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-74
+19    <uses-permission android:name="androidx.car.app.MAP_TEMPLATES" />
+19-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-70
+19-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-67
+20    <uses-permission android:name="androidx.car.app.ACCESS_SURFACE" />
+20-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-71
+20-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-68
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-68
+21-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-65
+22
+23    <queries>
+23-->[androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:23:5-28:15
+24        <provider
+24-->[androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:24:9-27:43
+25            android:name="androidx.car.app.connection.provider"
+25-->[androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:25:13-64
+26            android:authorities="androidx.car.app.connection" />
+26-->[androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:26:13-62
+27    </queries>
+28
+29    <application
+29-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:12:3-34:17
+30        android:name="com.rncarplayscene.MainApplication"
+30-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:13:5-36
+31        android:allowBackup="false"
+31-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:14:5-32
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.7.0] /Users/pro14inch/.gradle/caches/transforms-3/ad390b9914c156a66ff93f5a47924dd1/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@mipmap/ic_launcher"
+35-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:15:5-39
+36        android:label="@string/app_name"
+36-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:16:5-37
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:17:5-50
+38        android:testOnly="true"
+39        android:theme="@style/AppTheme"
+39-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:18:5-36
+40        android:usesCleartextTraffic="true" >
+40-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml:8:9-44
+41        <activity
+41-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml:11:9-111
+42            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+42-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml:11:19-83
+43            android:exported="false" />
+43-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml:11:84-108
+44
+45        <meta-data
+45-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:19:5-21:53
+46            android:name="com.google.android.gms.car.application"
+46-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:20:7-60
+47            android:resource="@xml/automotive_app_desc" />
+47-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:21:7-50
+48
+49        <activity
+49-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:22:5-33:16
+50            android:name="com.rncarplayscene.MainActivity"
+50-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:23:7-35
+51            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+51-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:24:7-116
+52            android:exported="true"
+52-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:25:7-30
+53            android:label="@string/app_name"
+53-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:26:7-39
+54            android:launchMode="singleTask"
+54-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:27:7-38
+55            android:windowSoftInputMode="adjustResize" >
+55-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:28:7-49
+56            <intent-filter>
+56-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:29:7-32:23
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:30:9-61
+57-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:30:17-58
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:31:9-69
+59-->/Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:31:19-66
+60            </intent-filter>
+61        </activity>
+62
+63        <service
+63-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-33:19
+64            android:name="org.birkir.carplay.CarPlayService"
+64-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-61
+65            android:exported="true" >
+65-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-36
+66            <intent-filter>
+66-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+67                <action android:name="org.birkir.carplay.APP_RELOAD" />
+67-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-72
+67-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-69
+68            </intent-filter>
+69            <intent-filter>
+69-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-25:29
+70                <action android:name="androidx.car.app.CarAppService" />
+70-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-73
+70-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:25-70
+71
+72                <category android:name="androidx.car.app.category.NAVIGATION" />
+72-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-81
+72-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:27-78
+73            </intent-filter>
+74            <intent-filter>
+74-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-32:29
+75                <action android:name="androidx.car.app.action.NAVIGATE" />
+75-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-75
+75-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-72
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-76
+77-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:27-73
+78
+79                <data android:scheme="geo" />
+79-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-46
+79-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:23-43
+80            </intent-filter>
+81        </service>
+82
+83        <meta-data
+83-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:33
+84            android:name="androidx.car.app.minCarApiLevel"
+84-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-59
+85            android:value="1" />
+85-->[:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-30
+86
+87        <provider
+87-->[:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+88            android:name="com.imagepicker.ImagePickerProvider"
+88-->[:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+89            android:authorities="com.rncarplayscene.imagepickerprovider"
+89-->[:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+90            android:exported="false"
+90-->[:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+91            android:grantUriPermissions="true" >
+91-->[:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+92            <meta-data
+92-->[:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+93                android:name="android.support.FILE_PROVIDER_PATHS"
+93-->[:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+94                android:resource="@xml/imagepicker_provider_paths" />
+94-->[:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+95        </provider>
+96
+97        <service
+97-->[androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:24:9-34:19
+98            android:name="androidx.car.app.CarAppMetadataHolderService"
+98-->[androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:25:13-72
+99            android:enabled="false"
+99-->[androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:26:13-36
+100            android:exported="false"
+100-->[androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:27:13-37
+101            android:process="" >
+101-->[androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:28:13-31
+102            <meta-data
+102-->[androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:31:13-33:89
+103                android:name="androidx.car.app.CarAppMetadataHolderService.CAR_HARDWARE_MANAGER"
+103-->[androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:32:17-97
+104                android:value="androidx.car.app.hardware.ProjectedCarHardwareManager" />
+104-->[androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:33:17-86
+105        </service>
+106
+107        <activity
+107-->[androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:31:9-34:75
+108            android:name="androidx.car.app.CarAppPermissionActivity"
+108-->[androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:32:13-69
+109            android:exported="false"
+109-->[androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:33:13-37
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+110-->[androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:34:13-72
+111
+112        <receiver
+112-->[androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:36:9-38:40
+113            android:name="androidx.car.app.notification.CarAppNotificationBroadcastReceiver"
+113-->[androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:37:13-93
+114            android:exported="false" />
+114-->[androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:38:13-37
+115
+116        <provider
+116-->[androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+117            android:name="androidx.startup.InitializationProvider"
+117-->[androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+118            android:authorities="com.rncarplayscene.androidx-startup"
+118-->[androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+119            android:exported="false" >
+119-->[androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+120            <meta-data
+120-->[androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+121                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+121-->[androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+122                android:value="androidx.startup" />
+122-->[androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+123            <meta-data
+123-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/pro14inch/.gradle/caches/transforms-3/955bc4faf135da872217bcc7c251d427/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+124                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+124-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/pro14inch/.gradle/caches/transforms-3/955bc4faf135da872217bcc7c251d427/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+125                android:value="androidx.startup" />
+125-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/pro14inch/.gradle/caches/transforms-3/955bc4faf135da872217bcc7c251d427/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+126        </provider>
+127    </application>
+128
+129</manifest>

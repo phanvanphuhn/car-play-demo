@@ -1,0 +1,525 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:2:1-35:12
+MERGED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:2:1-35:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/pro14inch/.gradle/caches/transforms-3/ad52a09ea3c4ac52bf3bcd62cbb99dc5/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/pro14inch/.gradle/caches/transforms-3/bfcee9bae6e04dd99906e4797b69a17a/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/pro14inch/.gradle/caches/transforms-3/01967fd7471ca24b2937e66464067a54/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:8:1-18:12
+MERGED from [:react-native-async-storage_async-storage] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_netinfo] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-40:12
+MERGED from [:react-native-gesture-handler] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-safe-area-context] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.react:react-android:0.71.13] /Users/pro14inch/.gradle/caches/transforms-3/64885a76c5d76787ae6656bf6fd5fec6/transformed/jetified-react-android-0.71.13-debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/14f651f845529d9579e3c33e21c9d705/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.react:hermes-android:0.71.13] /Users/pro14inch/.gradle/caches/transforms-3/0295329428e47ca1c369ca9bcc41768e/transformed/jetified-hermes-android-0.71.13-debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fbjni:fbjni:0.3.0] /Users/pro14inch/.gradle/caches/transforms-3/141e27291b2ef9a66f11fbce48779346/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/b2cbbe7f77a738b9d16c95b0eb30df57/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/85621a818768e5dbf669d8c9c3cce42a/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/d98c2e315ead717960a2f9e5b49a29b8/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/dcf90c5faafa55e4dcdd7956252ea965/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/pro14inch/.gradle/caches/transforms-3/05bd6683b99e6fbf03f96c627c993586/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/d6001d5d636b46b29bb90f65922fafea/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/fbc080562637c3169811b63229aa841d/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/f1338c6039752e9d40ed6ea07d6405d9/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/2503aac9bab7643ba214f84bb2591976/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/02577f13dc5d2f59789d83df3a5e9424/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/pro14inch/.gradle/caches/transforms-3/58c9969e7aca2868469e8c5893bc2f2c/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/3f647118725051e97a8f96549eee49cb/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/048dc1e1e27f7d417c3d5daea12abee7/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/3700d2c2d5270c2a037aae2420b2d1b8/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/2f41f4de1e69b7542b645bf173430c10/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:17:1-41:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/4c7e1470b88fe82e539b20cab45ea459/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/pro14inch/.gradle/caches/transforms-3/10e74a682306df18b85d46a778bce3b3/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/pro14inch/.gradle/caches/transforms-3/fda18212e6eddeb68b5e95f0263ffead/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/pro14inch/.gradle/caches/transforms-3/fdaf3c3973619e5fb0417685491aad79/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/e4eed840025cf5aebbbb86a143834d09/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/a787cc473c0c78b8da8477b88daa0883/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/pro14inch/.gradle/caches/transforms-3/0774804ddc208483a402f080a2254d90/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/pro14inch/.gradle/caches/transforms-3/009d24fb2b728916db12c8518df2254e/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/831a17e5fad025e5b4f6cce4c48ca5af/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/pro14inch/.gradle/caches/transforms-3/955bc4faf135da872217bcc7c251d427/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/da299e5419266c92224b63fac7668972/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/de6972fb97ce0ecc747ce4d7c4fb48d0/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/519f084a8dc6a911328474efb35cb352/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/24f205cf91e2dde0c65a0b140ae1a534/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/e4fd7a17c07b0abe30c76a04d21e8e3e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/dfb770aa1b941cf2de87f3ea48041306/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/pro14inch/.gradle/caches/transforms-3/456632d4f24e15919c1fe8a44a577c5b/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/pro14inch/.gradle/caches/transforms-3/5b37c03b45c2574c7e49494419a93349/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/726d29698f88f244a0e35adadd9670ec/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/pro14inch/.gradle/caches/transforms-3/2e006be3bc07a81f48eed5bc935aac92/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/15c2ad0f13665eedb7a81a5d7e5e6589/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/7f8c58d5ed3e8a3ad677f10914ab782c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/37acee6302f254318a43ab56e549f048/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/97ee0b42e2fec567224eb8599ac385c9/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/ec142ad7e886c032d07c7365a8116570/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/pro14inch/.gradle/caches/transforms-3/bf923634c10053de7b49cb3f3c81ce4c/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9898f14077b9b271e939a3b3b731a507/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] /Users/pro14inch/.gradle/caches/transforms-3/ad390b9914c156a66ff93f5a47924dd1/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/b97342b1ca3abf61d0fd6a7a8db42f46/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/pro14inch/.gradle/caches/transforms-3/140453ec064a3696de9538b826ae49d5/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/c14adb2908040885700b7aa5a4408146/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/pro14inch/.gradle/caches/transforms-3/cfb4c988ed4a622f8372b942286ba013/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/10c57041d95ee2dbcc8f56b537f3d179/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pro14inch/.gradle/caches/transforms-3/528a4d54a15eb85ab7828c46ac253a04/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/pro14inch/.gradle/caches/transforms-3/a7d10aef8ece1fc9cf87688e2db4386f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/pro14inch/.gradle/caches/transforms-3/d6bcfc8a4d180b5416acb35b68e2972f/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/pro14inch/.gradle/caches/transforms-3/808066dbf4e772d21e5cd7f398f34989/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/pro14inch/.gradle/caches/transforms-3/50504a3c95ad0fa204bd6b6e52f09984/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] /Users/pro14inch/.gradle/caches/transforms-3/0944c0d93e2414c1d5c1ea1899933bea/transformed/jetified-annotation-experimental-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/abed857c582841b6235e08f22382e9b6/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+	package
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:3:3-31
+		INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:3:3-31
+		INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:5:3-77
+	android:name
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:5:20-74
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:6:3-79
+	android:name
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:6:20-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:7:3-79
+	android:name
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:7:20-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:8:3-77
+MERGED from [:react-native-community_netinfo] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [:react-native-community_netinfo] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:8:20-74
+uses-permission#android.permission.INTERNET
+ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:9:3-65
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/pro14inch/.gradle/caches/transforms-3/01967fd7471ca24b2937e66464067a54/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/pro14inch/.gradle/caches/transforms-3/01967fd7471ca24b2937e66464067a54/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:9:20-62
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:10:3-74
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/pro14inch/.gradle/caches/transforms-3/01967fd7471ca24b2937e66464067a54/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/pro14inch/.gradle/caches/transforms-3/01967fd7471ca24b2937e66464067a54/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+MERGED from [:react-native-community_netinfo] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-76
+MERGED from [:react-native-community_netinfo] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:10:20-71
+application
+ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:12:3-34:17
+MERGED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:12:3-34:17
+MERGED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:12:3-34:17
+MERGED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-38:19
+MERGED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-38:19
+MERGED from [:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [com.facebook.react:react-android:0.71.13] /Users/pro14inch/.gradle/caches/transforms-3/64885a76c5d76787ae6656bf6fd5fec6/transformed/jetified-react-android-0.71.13-debug/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-android:0.71.13] /Users/pro14inch/.gradle/caches/transforms-3/64885a76c5d76787ae6656bf6fd5fec6/transformed/jetified-react-android-0.71.13-debug/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/pro14inch/.gradle/caches/transforms-3/58c9969e7aca2868469e8c5893bc2f2c/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/pro14inch/.gradle/caches/transforms-3/58c9969e7aca2868469e8c5893bc2f2c/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:11:5-20
+MERGED from [androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:23:5-35:19
+MERGED from [androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:23:5-35:19
+MERGED from [androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:30:5-39:19
+MERGED from [androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:30:5-39:19
+MERGED from [com.google.android.material:material:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/4c7e1470b88fe82e539b20cab45ea459/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/4c7e1470b88fe82e539b20cab45ea459/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/pro14inch/.gradle/caches/transforms-3/955bc4faf135da872217bcc7c251d427/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/pro14inch/.gradle/caches/transforms-3/955bc4faf135da872217bcc7c251d427/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/da299e5419266c92224b63fac7668972/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/da299e5419266c92224b63fac7668972/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.core:core:1.7.0] /Users/pro14inch/.gradle/caches/transforms-3/ad390b9914c156a66ff93f5a47924dd1/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/pro14inch/.gradle/caches/transforms-3/ad390b9914c156a66ff93f5a47924dd1/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pro14inch/.gradle/caches/transforms-3/528a4d54a15eb85ab7828c46ac253a04/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pro14inch/.gradle/caches/transforms-3/528a4d54a15eb85ab7828c46ac253a04/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/pro14inch/.gradle/caches/transforms-3/ad390b9914c156a66ff93f5a47924dd1/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:16:5-37
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:16:5-37
+	tools:ignore
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml:10:9-48
+	android:roundIcon
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:17:5-50
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:17:5-50
+	tools:targetApi
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml:9:9-29
+	android:icon
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:15:5-39
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:15:5-39
+	android:allowBackup
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:14:5-32
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:14:5-32
+	android:theme
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:18:5-36
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:18:5-36
+	android:usesCleartextTraffic
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml:8:9-44
+	android:name
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:13:5-36
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:13:5-36
+meta-data#com.google.android.gms.car.application
+ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:19:5-21:53
+	android:resource
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:21:7-50
+	android:name
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:20:7-60
+activity#com.rncarplayscene.MainActivity
+ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:22:5-33:16
+	android:label
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:26:7-39
+	android:launchMode
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:27:7-38
+	android:windowSoftInputMode
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:28:7-49
+	android:exported
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:25:7-30
+	android:configChanges
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:24:7-116
+	android:name
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:23:7-35
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:29:7-32:23
+action#android.intent.action.MAIN
+ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:30:9-61
+	android:name
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:30:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:31:9-69
+	android:name
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml:31:19-66
+uses-sdk
+INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/pro14inch/.gradle/caches/transforms-3/ad52a09ea3c4ac52bf3bcd62cbb99dc5/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/pro14inch/.gradle/caches/transforms-3/ad52a09ea3c4ac52bf3bcd62cbb99dc5/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/pro14inch/.gradle/caches/transforms-3/bfcee9bae6e04dd99906e4797b69a17a/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/pro14inch/.gradle/caches/transforms-3/bfcee9bae6e04dd99906e4797b69a17a/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/pro14inch/.gradle/caches/transforms-3/01967fd7471ca24b2937e66464067a54/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/pro14inch/.gradle/caches/transforms-3/01967fd7471ca24b2937e66464067a54/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-async-storage_async-storage] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-android:0.71.13] /Users/pro14inch/.gradle/caches/transforms-3/64885a76c5d76787ae6656bf6fd5fec6/transformed/jetified-react-android-0.71.13-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-android:0.71.13] /Users/pro14inch/.gradle/caches/transforms-3/64885a76c5d76787ae6656bf6fd5fec6/transformed/jetified-react-android-0.71.13-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/14f651f845529d9579e3c33e21c9d705/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/14f651f845529d9579e3c33e21c9d705/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.react:hermes-android:0.71.13] /Users/pro14inch/.gradle/caches/transforms-3/0295329428e47ca1c369ca9bcc41768e/transformed/jetified-hermes-android-0.71.13-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:hermes-android:0.71.13] /Users/pro14inch/.gradle/caches/transforms-3/0295329428e47ca1c369ca9bcc41768e/transformed/jetified-hermes-android-0.71.13-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fbjni:fbjni:0.3.0] /Users/pro14inch/.gradle/caches/transforms-3/141e27291b2ef9a66f11fbce48779346/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fbjni:fbjni:0.3.0] /Users/pro14inch/.gradle/caches/transforms-3/141e27291b2ef9a66f11fbce48779346/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/b2cbbe7f77a738b9d16c95b0eb30df57/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/b2cbbe7f77a738b9d16c95b0eb30df57/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/85621a818768e5dbf669d8c9c3cce42a/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/85621a818768e5dbf669d8c9c3cce42a/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/d98c2e315ead717960a2f9e5b49a29b8/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/d98c2e315ead717960a2f9e5b49a29b8/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/dcf90c5faafa55e4dcdd7956252ea965/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/dcf90c5faafa55e4dcdd7956252ea965/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/pro14inch/.gradle/caches/transforms-3/05bd6683b99e6fbf03f96c627c993586/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/pro14inch/.gradle/caches/transforms-3/05bd6683b99e6fbf03f96c627c993586/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/d6001d5d636b46b29bb90f65922fafea/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/d6001d5d636b46b29bb90f65922fafea/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/fbc080562637c3169811b63229aa841d/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/fbc080562637c3169811b63229aa841d/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/f1338c6039752e9d40ed6ea07d6405d9/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/f1338c6039752e9d40ed6ea07d6405d9/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/2503aac9bab7643ba214f84bb2591976/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/2503aac9bab7643ba214f84bb2591976/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/02577f13dc5d2f59789d83df3a5e9424/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/02577f13dc5d2f59789d83df3a5e9424/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/pro14inch/.gradle/caches/transforms-3/58c9969e7aca2868469e8c5893bc2f2c/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/pro14inch/.gradle/caches/transforms-3/58c9969e7aca2868469e8c5893bc2f2c/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/3f647118725051e97a8f96549eee49cb/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/3f647118725051e97a8f96549eee49cb/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/048dc1e1e27f7d417c3d5daea12abee7/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/048dc1e1e27f7d417c3d5daea12abee7/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/3700d2c2d5270c2a037aae2420b2d1b8/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/3700d2c2d5270c2a037aae2420b2d1b8/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/2f41f4de1e69b7542b645bf173430c10/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/2f41f4de1e69b7542b645bf173430c10/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:21:5-44
+MERGED from [androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:21:5-44
+MERGED from [androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:21:5-44
+MERGED from [androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/4c7e1470b88fe82e539b20cab45ea459/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/4c7e1470b88fe82e539b20cab45ea459/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/pro14inch/.gradle/caches/transforms-3/10e74a682306df18b85d46a778bce3b3/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/pro14inch/.gradle/caches/transforms-3/10e74a682306df18b85d46a778bce3b3/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/pro14inch/.gradle/caches/transforms-3/fda18212e6eddeb68b5e95f0263ffead/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/pro14inch/.gradle/caches/transforms-3/fda18212e6eddeb68b5e95f0263ffead/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/pro14inch/.gradle/caches/transforms-3/fdaf3c3973619e5fb0417685491aad79/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/pro14inch/.gradle/caches/transforms-3/fdaf3c3973619e5fb0417685491aad79/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/e4eed840025cf5aebbbb86a143834d09/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/e4eed840025cf5aebbbb86a143834d09/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/a787cc473c0c78b8da8477b88daa0883/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/a787cc473c0c78b8da8477b88daa0883/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/pro14inch/.gradle/caches/transforms-3/0774804ddc208483a402f080a2254d90/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/pro14inch/.gradle/caches/transforms-3/0774804ddc208483a402f080a2254d90/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/pro14inch/.gradle/caches/transforms-3/009d24fb2b728916db12c8518df2254e/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/pro14inch/.gradle/caches/transforms-3/009d24fb2b728916db12c8518df2254e/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/831a17e5fad025e5b4f6cce4c48ca5af/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/831a17e5fad025e5b4f6cce4c48ca5af/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/pro14inch/.gradle/caches/transforms-3/955bc4faf135da872217bcc7c251d427/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/pro14inch/.gradle/caches/transforms-3/955bc4faf135da872217bcc7c251d427/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/da299e5419266c92224b63fac7668972/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/da299e5419266c92224b63fac7668972/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/de6972fb97ce0ecc747ce4d7c4fb48d0/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/de6972fb97ce0ecc747ce4d7c4fb48d0/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/519f084a8dc6a911328474efb35cb352/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/519f084a8dc6a911328474efb35cb352/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/24f205cf91e2dde0c65a0b140ae1a534/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/24f205cf91e2dde0c65a0b140ae1a534/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/e4fd7a17c07b0abe30c76a04d21e8e3e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/e4fd7a17c07b0abe30c76a04d21e8e3e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/dfb770aa1b941cf2de87f3ea48041306/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/dfb770aa1b941cf2de87f3ea48041306/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/pro14inch/.gradle/caches/transforms-3/456632d4f24e15919c1fe8a44a577c5b/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/pro14inch/.gradle/caches/transforms-3/456632d4f24e15919c1fe8a44a577c5b/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/pro14inch/.gradle/caches/transforms-3/5b37c03b45c2574c7e49494419a93349/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/pro14inch/.gradle/caches/transforms-3/5b37c03b45c2574c7e49494419a93349/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/726d29698f88f244a0e35adadd9670ec/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/726d29698f88f244a0e35adadd9670ec/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/pro14inch/.gradle/caches/transforms-3/2e006be3bc07a81f48eed5bc935aac92/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/pro14inch/.gradle/caches/transforms-3/2e006be3bc07a81f48eed5bc935aac92/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/15c2ad0f13665eedb7a81a5d7e5e6589/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/15c2ad0f13665eedb7a81a5d7e5e6589/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/7f8c58d5ed3e8a3ad677f10914ab782c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/7f8c58d5ed3e8a3ad677f10914ab782c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/37acee6302f254318a43ab56e549f048/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/37acee6302f254318a43ab56e549f048/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/97ee0b42e2fec567224eb8599ac385c9/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/97ee0b42e2fec567224eb8599ac385c9/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/ec142ad7e886c032d07c7365a8116570/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/ec142ad7e886c032d07c7365a8116570/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/pro14inch/.gradle/caches/transforms-3/bf923634c10053de7b49cb3f3c81ce4c/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/pro14inch/.gradle/caches/transforms-3/bf923634c10053de7b49cb3f3c81ce4c/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9898f14077b9b271e939a3b3b731a507/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9898f14077b9b271e939a3b3b731a507/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] /Users/pro14inch/.gradle/caches/transforms-3/ad390b9914c156a66ff93f5a47924dd1/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/pro14inch/.gradle/caches/transforms-3/ad390b9914c156a66ff93f5a47924dd1/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/b97342b1ca3abf61d0fd6a7a8db42f46/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/b97342b1ca3abf61d0fd6a7a8db42f46/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/pro14inch/.gradle/caches/transforms-3/140453ec064a3696de9538b826ae49d5/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/pro14inch/.gradle/caches/transforms-3/140453ec064a3696de9538b826ae49d5/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/c14adb2908040885700b7aa5a4408146/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/pro14inch/.gradle/caches/transforms-3/c14adb2908040885700b7aa5a4408146/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/pro14inch/.gradle/caches/transforms-3/cfb4c988ed4a622f8372b942286ba013/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/pro14inch/.gradle/caches/transforms-3/cfb4c988ed4a622f8372b942286ba013/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/10c57041d95ee2dbcc8f56b537f3d179/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/10c57041d95ee2dbcc8f56b537f3d179/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pro14inch/.gradle/caches/transforms-3/528a4d54a15eb85ab7828c46ac253a04/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pro14inch/.gradle/caches/transforms-3/528a4d54a15eb85ab7828c46ac253a04/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/pro14inch/.gradle/caches/transforms-3/a7d10aef8ece1fc9cf87688e2db4386f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/pro14inch/.gradle/caches/transforms-3/a7d10aef8ece1fc9cf87688e2db4386f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/pro14inch/.gradle/caches/transforms-3/d6bcfc8a4d180b5416acb35b68e2972f/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/pro14inch/.gradle/caches/transforms-3/d6bcfc8a4d180b5416acb35b68e2972f/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/pro14inch/.gradle/caches/transforms-3/808066dbf4e772d21e5cd7f398f34989/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/pro14inch/.gradle/caches/transforms-3/808066dbf4e772d21e5cd7f398f34989/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/pro14inch/.gradle/caches/transforms-3/50504a3c95ad0fa204bd6b6e52f09984/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/pro14inch/.gradle/caches/transforms-3/50504a3c95ad0fa204bd6b6e52f09984/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] /Users/pro14inch/.gradle/caches/transforms-3/0944c0d93e2414c1d5c1ea1899933bea/transformed/jetified-annotation-experimental-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] /Users/pro14inch/.gradle/caches/transforms-3/0944c0d93e2414c1d5c1ea1899933bea/transformed/jetified-annotation-experimental-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/abed857c582841b6235e08f22382e9b6/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/pro14inch/.gradle/caches/transforms-3/abed857c582841b6235e08f22382e9b6/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml:5:22-75
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml:11:9-111
+	android:exported
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml:11:84-108
+	android:name
+		ADDED from /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/apps/example/android/app/src/debug/AndroidManifest.xml:11:19-83
+uses-permission#androidx.car.app.NAVIGATION_TEMPLATES
+ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-74
+uses-permission#androidx.car.app.MAP_TEMPLATES
+ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-70
+	android:name
+		ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-67
+uses-permission#androidx.car.app.ACCESS_SURFACE
+ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-65
+service#org.birkir.carplay.CarPlayService
+ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-33:19
+	android:exported
+		ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-61
+intent-filter#action:name:org.birkir.carplay.APP_RELOAD
+ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+action#org.birkir.carplay.APP_RELOAD
+ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-72
+	android:name
+		ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-69
+intent-filter#action:name:androidx.car.app.CarAppService+category:name:androidx.car.app.category.NAVIGATION
+ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-25:29
+action#androidx.car.app.CarAppService
+ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-73
+	android:name
+		ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:25-70
+category#androidx.car.app.category.NAVIGATION
+ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-81
+	android:name
+		ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:27-78
+intent-filter#action:name:androidx.car.app.action.NAVIGATE+category:name:android.intent.category.DEFAULT+data:scheme:geo
+ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-32:29
+action#androidx.car.app.action.NAVIGATE
+ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-75
+	android:name
+		ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-72
+category#android.intent.category.DEFAULT
+ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:27-73
+data
+ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-46
+	android:scheme
+		ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:23-43
+meta-data#androidx.car.app.minCarApiLevel
+ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:33
+	android:value
+		ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-30
+	android:name
+		ADDED from [:react-native-carplay] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-carplay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-59
+provider#com.imagepicker.ImagePickerProvider
+ADDED from [:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+	android:exported
+		ADDED from [:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+	android:resource
+		ADDED from [:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+	android:name
+		ADDED from [:react-native-image-picker] /Users/pro14inch/Desktop/Code/ReactNative/react-native-carplay/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+service#androidx.car.app.CarAppMetadataHolderService
+ADDED from [androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:24:9-34:19
+	tools:node
+		ADDED from [androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:30:13-31
+	android:process
+		ADDED from [androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:28:13-31
+	android:enabled
+		ADDED from [androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:29:13-75
+	android:name
+		ADDED from [androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:25:13-72
+meta-data#androidx.car.app.CarAppMetadataHolderService.CAR_HARDWARE_MANAGER
+ADDED from [androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:31:13-33:89
+	android:value
+		ADDED from [androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:33:17-86
+	android:name
+		ADDED from [androidx.car.app:app-projected:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/2512d853ae8090bf05ec53472d256806/transformed/jetified-app-projected-1.4.0-beta02/AndroidManifest.xml:32:17-97
+queries
+ADDED from [androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:23:5-28:15
+provider#androidx.car.app.connection.provider
+ADDED from [androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:24:9-27:43
+	android:authorities
+		ADDED from [androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:26:13-62
+	tools:ignore
+		ADDED from [androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:27:13-40
+	android:name
+		ADDED from [androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:25:13-64
+activity#androidx.car.app.CarAppPermissionActivity
+ADDED from [androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:31:9-34:75
+	android:exported
+		ADDED from [androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:33:13-37
+	android:theme
+		ADDED from [androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:32:13-69
+receiver#androidx.car.app.notification.CarAppNotificationBroadcastReceiver
+ADDED from [androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [androidx.car.app:app:1.4.0-beta02] /Users/pro14inch/.gradle/caches/transforms-3/c70d5e96c6f6bd6de3ba696d97e08166/transformed/jetified-app-1.4.0-beta02/AndroidManifest.xml:37:13-93
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/pro14inch/.gradle/caches/transforms-3/955bc4faf135da872217bcc7c251d427/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/pro14inch/.gradle/caches/transforms-3/955bc4faf135da872217bcc7c251d427/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/da299e5419266c92224b63fac7668972/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/da299e5419266c92224b63fac7668972/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/pro14inch/.gradle/caches/transforms-3/9aae268600554e348807775f41e5f8ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/pro14inch/.gradle/caches/transforms-3/955bc4faf135da872217bcc7c251d427/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/pro14inch/.gradle/caches/transforms-3/955bc4faf135da872217bcc7c251d427/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/pro14inch/.gradle/caches/transforms-3/955bc4faf135da872217bcc7c251d427/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78

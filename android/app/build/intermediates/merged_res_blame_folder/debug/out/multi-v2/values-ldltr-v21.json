@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.rncarplayscene.app-mergeDebugResources-29:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/pro14inch/.gradle/caches/transforms-3/10e74a682306df18b85d46a778bce3b3/transformed/appcompat-1.4.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}
