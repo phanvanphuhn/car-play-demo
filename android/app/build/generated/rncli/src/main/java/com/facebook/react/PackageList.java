@@ -15,6 +15,8 @@ import java.util.ArrayList;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 // @react-native-community/netinfo
 import com.reactnativecommunity.netinfo.NetInfoPackage;
+// @react-native-community/slider
+import com.reactnativecommunity.slider.ReactSliderPackage;
 // react-native-carplay
 import org.birkir.carplay.CarPlayPackage;
 // react-native-gesture-handler
@@ -25,6 +27,10 @@ import com.imagepicker.ImagePickerPackage;
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 // react-native-screens
 import com.swmansion.rnscreens.RNScreensPackage;
+// react-native-track-player
+import com.doublesymmetry.trackplayer.TrackPlayer;
+// react-native-webview
+import com.reactnativecommunity.webview.RNCWebViewPackage;
 
 public class PackageList {
   private Application application;
@@ -72,11 +78,14 @@ public class PackageList {
       new MainReactPackage(mConfig),
       new AsyncStoragePackage(),
       new NetInfoPackage(),
+      new ReactSliderPackage(),
       new CarPlayPackage(),
       new RNGestureHandlerPackage(),
       new ImagePickerPackage(),
       new SafeAreaContextPackage(),
-      new RNScreensPackage()
+      new RNScreensPackage(),
+      new TrackPlayer(),
+      new RNCWebViewPackage()
     ));
   }
 }

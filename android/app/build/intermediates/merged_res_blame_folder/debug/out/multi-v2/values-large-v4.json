@@ -1,8 +1,18 @@
 {
     "logs": [
         {
-            "outputFile": "com.rncarplayscene.app-mergeDebugResources-29:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.rncarplayscene.app-mergeDebugResources-40:/values-large-v4/values-large-v4.xml",
             "map": [
+                {
+                    "source": "/Users/pro14inch/.gradle/caches/transforms-3/9c784c320e8750ee6e56a4f25f38140c/transformed/appcompat-1.5.0/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    }
+                },
                 {
                     "source": "/Users/pro14inch/.gradle/caches/transforms-3/4c7e1470b88fe82e539b20cab45ea459/transformed/material-1.1.0/res/values-large-v4/values-large-v4.xml",
                     "from": {
@@ -18,16 +28,6 @@
                         "startOffsets": "752,874",
                         "endColumns": "121,133",
                         "endOffsets": "869,1003"
-                    }
-                },
-                {
-                    "source": "/Users/pro14inch/.gradle/caches/transforms-3/10e74a682306df18b85d46a778bce3b3/transformed/appcompat-1.4.1/res/values-large-v4/values-large-v4.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,185,256,326,396,464,532,636",
-                        "endColumns": "58,70,70,69,69,67,67,103,115",
-                        "endOffsets": "109,180,251,321,391,459,527,631,747"
                     }
                 }
             ]

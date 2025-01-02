@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.rncarplayscene.app-mergeDebugResources-29:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.rncarplayscene.app-mergeDebugResources-40:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "/Users/pro14inch/.gradle/caches/transforms-3/10e74a682306df18b85d46a778bce3b3/transformed/appcompat-1.4.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "source": "/Users/pro14inch/.gradle/caches/transforms-3/9c784c320e8750ee6e56a4f25f38140c/transformed/appcompat-1.5.0/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
